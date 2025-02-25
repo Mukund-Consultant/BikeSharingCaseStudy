@@ -10,3 +10,7 @@ They have contracted a consulting company to understand the factors on which the
 2) How well those variables describe the bike demands?
 
 The business goal is to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features
+
+## Solution Approach
+
+The approach involves the following steps
