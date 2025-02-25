@@ -11,6 +11,7 @@ They have contracted a consulting company to understand the factors on which the
 
 The business goal is to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features
 
+
 ## Solution Approach
 
 The approach involves the following steps
@@ -21,12 +22,13 @@ The approach involves the following steps
 ### Step 4. Residual Analysis of the Train Data
 ### Step 5. Making Prediction using the Final Model
 
+
 ## Final Result & Summary Report
 
-Train R^2 :0.796
-Train Adjusted R^2 :0.793
-Test R^2 :0.780
-Test Adjusted R^2 :0.772
+- Train R^2 :0.796
+- Train Adjusted R^2 :0.793
+- Test R^2 :0.780
+- Test Adjusted R^2 :0.772
 
 As per our final Model, the top 3 predictor variables that influences the bike booking are:
 
@@ -37,11 +39,12 @@ So, it's suggested to consider these variables while planning, to achive maximum
 
 The next set of features that can be considered are
 
-season_4: - A coefficient value of ‘0.1227’ indicated that (with respect to) season_1), a unit increase in season_4 variable increases the bike hire numbers by 00.1227 units.
-windspeed: - A coefficient value of ‘-0.1463’ indicated that, a unit increase in windspeed variable decreases the bike hire numbers by -0.1463 units.
-NOTE:
+#### season_4: - A coefficient value of ‘0.1227’ indicated that (with respect to) season_1), a unit increase in season_4 variable increases the bike hire numbers by 00.1227 units.
+#### windspeed: - A coefficient value of ‘-0.1463’ indicated that, a unit increase in windspeed variable decreases the bike hire numbers by -0.1463 units.
 
-weathersit_1 refers to: Clear, Few clouds, Partly cloudy, Partly cloudy
-weathersit_3 refers to: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
-season1 refers to: spring
-season4 refers to: winter
+#### Note:
+
+##### weathersit_1 refers to: Clear, Few clouds, Partly cloudy, Partly cloudy
+##### weathersit_3 refers to: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+##### season1 refers to: spring
+##### season4 refers to: winter
