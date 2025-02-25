@@ -14,3 +14,9 @@ The business goal is to model the demand for shared bikes with the available ind
 ## Solution Approach
 
 The approach involves the following steps
+
+### Step 1. Reading, Understanding & Visualizing the Data
+### Step 2. Data Preparation for Modeling
+### Step 3. Building & Training the Model
+### Step 4. Residual Analysis of the Train Data
+### Step 5. Making Prediction using the Final Model
