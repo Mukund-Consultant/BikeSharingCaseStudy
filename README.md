@@ -20,3 +20,28 @@ The approach involves the following steps
 ### Step 3. Building & Training the Model
 ### Step 4. Residual Analysis of the Train Data
 ### Step 5. Making Prediction using the Final Model
+
+## Final Result & Summary Report
+
+Train R^2 :0.796
+Train Adjusted R^2 :0.793
+Test R^2 :0.780
+Test Adjusted R^2 :0.772
+
+As per our final Model, the top 3 predictor variables that influences the bike booking are:
+
+#### Temperature (temp) - A coefficient value of ‘0.5772’ indicated that a unit increase in temp variable increases the bike hire numbers by 0.5772 units.
+#### Weather Situation 3 (weathersit_3) - A coefficient value of ‘-0.2769’ indicated that (with respect to weathersit_1, a unit increase in weathersit_3 variable decreases the bike hire numbers by -0.2769 units.
+#### Year (yr) - A coefficient value of ‘0.2334’ indicated that a unit increase in yr variable increases the bike hire numbers by 0.2334 units.
+So, it's suggested to consider these variables while planning, to achive maximum Booking
+
+The next set of features that can be considered are
+
+season_4: - A coefficient value of ‘0.1227’ indicated that (with respect to) season_1), a unit increase in season_4 variable increases the bike hire numbers by 00.1227 units.
+windspeed: - A coefficient value of ‘-0.1463’ indicated that, a unit increase in windspeed variable decreases the bike hire numbers by -0.1463 units.
+NOTE:
+
+weathersit_1 refers to: Clear, Few clouds, Partly cloudy, Partly cloudy
+weathersit_3 refers to: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+season1 refers to: spring
+season4 refers to: winter
