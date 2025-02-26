@@ -23,6 +23,17 @@ The approach involves the following steps
 ### Step 5. Making Prediction using the Final Model
 
 
+## Technology used
+
+- Python 3.12.4
+- Numpy 1.26.4
+- Pandas 2.2.2
+- Seaborn 0.13.2
+- Matplotlib 3.8.4
+- Scikit-Learn 1.4.2
+- Statsmodels 0.14.2
+
+
 ## Final Result & Summary Report
 
 - Train R^2 :0.796
