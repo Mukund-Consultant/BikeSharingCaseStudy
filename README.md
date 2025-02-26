@@ -12,6 +12,7 @@ They have contracted a consulting company to understand the factors on which the
 The business goal is to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features
 
 
+
 ## Solution Approach
 
 The approach involves the following steps
@@ -23,6 +24,7 @@ The approach involves the following steps
 ### Step 5. Making Prediction using the Final Model
 
 
+
 ## Technology used
 
 - Python 3.12.4
@@ -32,6 +34,7 @@ The approach involves the following steps
 - Matplotlib 3.8.4
 - Scikit-Learn 1.4.2
 - Statsmodels 0.14.2
+
 
 
 ## Final Result & Summary Report
